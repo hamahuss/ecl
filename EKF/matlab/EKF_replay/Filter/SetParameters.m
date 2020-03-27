@@ -15,8 +15,8 @@ param.control.yawAlignErr = 0.0; % initial yaw misalignment (rad)
 
 %% GPS fusion
 param.fusion.gpsTimeDelay = 0.1; % GPS measurement delay relative to IMU (sec)
-param.fusion.gpsVelGate = 5.0; % Size of the IMU velocity innovation consistency check gate in SD
-param.fusion.gpsPosGate = 5.0; % Size of the IMU velocity innovation consistency check gate in SD
+param.fusion.gpsVelGate = 15.0; % Size of the IMU velocity innovation consistency check gate in SD
+param.fusion.gpsPosGate = 15.0; % Size of the IMU velocity innovation consistency check gate in SD
 param.fusion.gpsCheckTimeout = 10.0; % Length of time that GPS measurements will be rejected by the filter before states are reset to the GPS velocity. (sec)
 
 %% Baro fusion
@@ -57,8 +57,8 @@ param.prediction.angRateNoise = 0.015; % IMU gyro 1SD rate process noise (rad/se
 param.prediction.accelNoise = 0.35; % IMU accelerometer 1SD error noise including switch on bias uncertainty. (m/sec^2)
 
 %% Initial Uncertainty
-param.alignment.posErrNE = 10.0; % Initial 1SD position error when aligning without GPS. (m/sec)
-param.alignment.velErrNE = 5.0; % Initial 1SD velocity error when aligning without GPS. (m/sec)
+param.alignment.posErrNE = 1.0; % Initial 1SD position error when aligning without GPS. (m/sec)
+param.alignment.velErrNE = 1.0; % Initial 1SD velocity error when aligning without GPS. (m/sec)
 param.alignment.velErrD = 1.0; % Initial 1SD vertical velocity error when aligning without GPS. (m/sec)
 param.alignment.delAngBiasErr = 0.05*pi/180; % Initial 1SD rate gyro bias uncertainty. (rad/sec)
 param.alignment.delVelBiasErr = 0.07; % Initial 1SD accelerometer bias uncertainty. (m/sec^2)

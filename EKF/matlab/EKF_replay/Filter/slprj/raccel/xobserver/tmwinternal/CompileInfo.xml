@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="5ffbae0f-6218-4dda-8c38-9fd9c9c1be35">
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasNonVirtualParameterChangeEvents>true</hasNonVirtualParameterChangeEvents>
+    <hasNoncontSigFeedingDerivPorts>true</hasNoncontSigFeedingDerivPorts>
+    <inportSignalObjects>AAFJTQAAAAAOAAAAKAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAA=</inportSignalObjects>
+    <needAbsoluteTimeForNonLoggingPurpose>true</needAbsoluteTimeForNonLoggingPurpose>
+    <outportSignalObjects>AAFJTQAAAAAOAAAAKAAAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAA=</outportSignalObjects>
+    <sFcnInfo type="ModelRefInfoRepo.SFcnInformation" uuid="a9619cd4-bd75-4351-a776-af71888df9b5">
+      <blockSID>xobserver:74:196</blockSID>
+      <mexPath>C:\Program Files\MATLAB\R2018a\toolbox\ident\idutils\sfunwavenet.mexw64</mexPath>
+      <name>sfunwavenet</name>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="bb8adb04-30cf-40ec-8e78-067916041981">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAJqZmZmZmbk/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="81163172-8ddf-4d34-a179-bcffdfb62759">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAABxA</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="b3813201-85b3-459f-add8-191136d001f3">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="1fbed836-1c0a-464d-925a-5c6874e68113">
+        <parameter>AAFJTQAAAAAOAAAAaAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAAHAAAAAQAAAAAAAAAJAAAAOAAAABw7SUYMoBBA/McUkbyXEEAiuTyOco8QQPBRUTh9YOE/F8HwmW48Qr+9cm2wye14v+PAlEtTzOg/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="4ad28201-3ca0-43f4-96d5-697f8de2a6a3">
+        <parameter>AAFJTQAAAAAOAAAAuAEAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAcAAAAHAAAAAQAAAAAAAAAJAAAAiAEAAJ8BgpugQb4/cdF9WRhOvj+VQrJ+Jlq+P2K7NK/7lyW//igM4cPqNb9XhevHNftDP/4sefCAtlc/NALcGo9NYb9++MqapC6DP5tR2eZzjJI/NnmsG932HEA3vsF+4/2lP7huBMjhZ9E/obD6LfG59b9YBp/JeOrzP6WjkgkInaG/9KJVyo5Q9b+sqYXOTJ8AQC2S6DQKztE/toLvsaM86L8VnzqIjNUlQF2YNoecVx7AeQoAw0Wpo7/bvJinNfwdQIkcd3rbQN4/+tNwo28TNsCQ2apH6XADQGKK1jaZXQNArpmC2/ba8T/Wo3otwI9wP3z9Eu7ErO6/9wWUO2Lc5D81DcgJgLYPwK4YLOlThzvAxnmFTcFqAcBpAVBdQFU5QDP8oDl963I/JD5t2mtFOcC2/8kTR0/uvy7uIGSvVDHALygSPLMbE0C7yaiwQhMUwERt4xB2tTTAfTgpYam6RECEhiwe3r80wK9PWpp6voi/m+1GkE1Yk789UtVhhdu6v6iC/hSw3Ka/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="fc90985a-0e8e-4153-9cd1-59dc397e4f7b">
+        <parameter>AAFJTQAAAAAOAAAAuAEAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAcAAAAHAAAAAQAAAAAAAAAJAAAAiAEAAJ8BgpugQb4/cdF9WRhOvj+VQrJ+Jlq+P2K7NK/7lyW//igM4cPqNb9XhevHNftDP/4sefCAtlc/NALcGo9NYb9++MqapC6DP5tR2eZzjJI/NnmsG932HEA3vsF+4/2lP7huBMjhZ9E/obD6LfG59b9YBp/JeOrzP6WjkgkInaG/9KJVyo5Q9b+sqYXOTJ8AQC2S6DQKztE/toLvsaM86L8VnzqIjNUlQF2YNoecVx7AeQoAw0Wpo7/bvJinNfwdQIkcd3rbQN4/+tNwo28TNsCQ2apH6XADQGKK1jaZXQNArpmC2/ba8T/Wo3otwI9wP3z9Eu7ErO6/9wWUO2Lc5D81DcgJgLYPwK4YLOlThzvAxnmFTcFqAcBpAVBdQFU5QDP8oDl963I/JD5t2mtFOcC2/8kTR0/uvy7uIGSvVDHALygSPLMbE0C7yaiwQhMUwERt4xB2tTTAfTgpYam6RECEhiwe3r80wK9PWpp6voi/m+1GkE1Yk789UtVhhdu6v6iC/hSw3Ka/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="e12d1d4b-e4b1-4172-b93c-6c46b03fe526">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAF7QmR3ypxBA</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="8d4c4c87-dddd-4589-a410-dd9eba7827db">
+        <parameter>AAFJTQAAAAAOAAAAaAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAcAAAABAAAAAQAAAAAAAAAJAAAAOAAAAEER37DRcgZA1q0nmzF+N7+0mw2lnuCTPx+eCxK4nJi/r9nKuCkZZj+/Od04uYKdP/d5r3rH9Yw/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="b2ae601e-aeea-4c23-9e54-6421e6604165">
+        <parameter>AAFJTQAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA==</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="2d58eb77-a786-4b08-a6f2-65442dfccb81">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAKia3ogDWls/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="bb135d42-0294-41f1-a74c-9506a1061491">
+        <parameter>AAFJTQAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAJAAAAAAAAAA==</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="9c8b6e1d-e59a-4f92-91ea-466cab2f428b">
+        <parameter>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAJAAAACAAAAAAAAAAAAPA/</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="8215610f-c001-4f9e-8235-8c0f7e638985">
+        <parameter>AAFJTQAAAAAOAAAAMAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAAAAAAHAAAAAQAAAAAAAAAJAAAAAAAAAA==</parameter>
+      </parameters>
+      <parameters type="ModelRefInfoRepo.SFcnParameter" uuid="11c78065-89be-4ebb-9124-cb0a904e7338">
+        <parameter>AAFJTQAAAAAOAAAAaAAAAAYAAAAIAAAABgAAAAAAAAAFAAAACAAAAAEAAAAHAAAAAQAAAAAAAAAJAAAAOAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAAAAAAAAAAAADwPwAAAAAAAPA/</parameter>
+      </parameters>
+      <sourceCodeExists>true</sourceCodeExists>
+    </sFcnInfo>
+    <timingAndTaskingRegistry></timingAndTaskingRegistry>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="3dc01833-c077-4a1a-bbab-862ea00880cc"/>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="7c770c2b-1d9c-4898-8f27-7264a35d1f6e"/>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="f9e1fd90-64dc-467a-af20-9d91f0a0eab3">
+      <compSimulinkFunctionCatalog>AAFJTQAAAAAOAAAA0AAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAAAAAAAFAAQAEQAAAAEAAAAiAAAAQ29tcEZ1bmN0aW9ucwAAAABDb21wU2VydmljZVBvcnRzAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAGAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAkAAAAAAAAADgAAADAAAAAGAAAACAAAAAYAAAAAAAAABQAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACQAAAAAAAAA=</compSimulinkFunctionCatalog>
+      <variantSimulinkFunctions type="ModelRefInfoRepo.VariantSimulinkFunctions" uuid="d90ea1a6-5baf-4c7e-8dd4-6c925ccb38b0"/>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="8b80c3a1-76cb-4c4c-bd06-dfb657348a73"/>
+    <unionTsContainedTs type="ModelRefInfoRepo.UnionTsContainedTsInfo" uuid="947b4f3a-1f72-4f61-818e-059f0ea536ce"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>

@@ -55,107 +55,107 @@ xlim([-inf, inf])
 fileName='GPS.png';
 fullFileName = fullfile(folder, fileName);
 saveas(gcf,fullFileName);
-%  
-% figure('Units','normalized','outerposition',[0 0 1 1])
-% subplot 211
-% plot(timu, zr1, timu, zr2)
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% legend(" zr1","zr2");
-% xlabel("t(s)");
-% ylabel("z(m)");
-% subplot 212
-% plot(timu, zr1 - zr2)
-% hline(-.5,'k','--')
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% legend(" Res-zr1-zr2");
-% xlabel("t(s)");
-% ylabel("z(m)");
-% fileName='Hover_2.png';
-% fullFileName = fullfile(folder, fileName);
-% saveas(gcf,fullFileName);
-%  
-%  
-% figure('Units','normalized','outerposition',[0 0 1 1])
-% subplot 311
-% plot(tp12,sz1);
-% ylim([0, 1])
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% ylim([0, 1])
-% legend(" s_{zKF1-zKF2}");
-% xlabel("t(s)")
-% subplot 312
-% plot(tp12,sz2);
-% ylim([0, 1])
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% ylim([0, 1])
-% legend(" s_{zKF1-zmodel}");
-% xlabel("t(s)")
-% subplot 313
-% plot(tp12,sz3);
-% ylim([0, 1])
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% ylim([0, 1])
-% legend(" s_{zKF2-zmodel}");
-% xlabel("t(s)")
-% fileName='Hover_3.png';
-% fullFileName = fullfile(folder, fileName);
-% saveas(gcf,fullFileName);
-%  
-%  
-% figure('Units','normalized','outerposition',[0 0 1 1])
-% subplot 311
-% plot(tp12,ez1);
-% 
-% hline(1,'k','--')
-% hline(-1,'k','--')
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% legend(" res-zKF1-zKF2");
-% xlabel("t(s)")
-% subplot 312
-% plot(tp12,ez2);
-% 
-% hline(1,'k','--')
-% hline(-1,'k','--')
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% legend(" res-zKF1-zmodel");
-% xlabel("t(s)")
-% subplot 313
-% plot(tp12,ez3);
-% 
-% hline(1,'k','--')
-% hline(-1,'k','--')
-% vline(17.8)
-% if exist(idf)
-% vline(tp12(idf - idx))
-% end
-% legend(" res-zKF2-zmodel");
-% xlabel("t(s)")
-% fileName='Hover_4.png';
-% fullFileName = fullfile(folder, fileName);
-% saveas(gcf,fullFileName);
-%  
-%  
-%  
-%  
-% 
+ 
+figure('Units','normalized','outerposition',[0 0 1 1])
+subplot 211
+plot(timu, zr1, timu, zr2)
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+legend(" zr1","zr2");
+xlabel("t(s)");
+ylabel("z(m)");
+subplot 212
+plot(timu, zr1 - zr2)
+hline(-.5,'k','--')
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+legend(" Res-zr1-zr2");
+xlabel("t(s)");
+ylabel("z(m)");
+fileName='Hover_2.png';
+fullFileName = fullfile(folder, fileName);
+saveas(gcf,fullFileName);
+ 
+ 
+figure('Units','normalized','outerposition',[0 0 1 1])
+subplot 311
+plot(tp12,sz1);
+ylim([0, 1])
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+ylim([0, 1])
+legend(" s_{zKF1-zKF2}");
+xlabel("t(s)")
+subplot 312
+plot(tp12,sz2);
+ylim([0, 1])
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+ylim([0, 1])
+legend(" s_{zKF1-zmodel}");
+xlabel("t(s)")
+subplot 313
+plot(tp12,sz3);
+ylim([0, 1])
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+ylim([0, 1])
+legend(" s_{zKF2-zmodel}");
+xlabel("t(s)")
+fileName='Hover_3.png';
+fullFileName = fullfile(folder, fileName);
+saveas(gcf,fullFileName);
+ 
+ 
+figure('Units','normalized','outerposition',[0 0 1 1])
+subplot 311
+plot(tp12,ez1);
+
+hline(1,'k','--')
+hline(-1,'k','--')
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+legend(" res-zKF1-zKF2");
+xlabel("t(s)")
+subplot 312
+plot(tp12,ez2);
+
+hline(1,'k','--')
+hline(-1,'k','--')
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+legend(" res-zKF1-zmodel");
+xlabel("t(s)")
+subplot 313
+plot(tp12,ez3);
+
+hline(1,'k','--')
+hline(-1,'k','--')
+vline(17.8)
+if exist(idf)
+vline(tp12(idf - idx))
+end
+legend(" res-zKF2-zmodel");
+xlabel("t(s)")
+fileName='Hover_4.png';
+fullFileName = fullfile(folder, fileName);
+saveas(gcf,fullFileName);
+ 
+ 
+ 
+ 
+
